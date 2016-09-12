@@ -7,6 +7,6 @@ val sbtBison = (project in file(".")).
     scalaVersion := "2.10.6",
     scalacOptions := Seq("-deprecation", "-unchecked", "-feature")
     // libraryDependencies ++= Seq(
-    //   "edu.umass.cs.iesl" % "jflex-scala" % "1.6.1" % "compile"
+    //   "edu.uwm.cs" %% "scala-bison" % "0.1-SNAPSHOT"
     // )
   )
